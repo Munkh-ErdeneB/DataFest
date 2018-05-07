@@ -218,5 +218,5 @@ class Dfest(object):
                 writer.writerow([key, value]) 
 
 if __name__ == "__main__":
-    wp = woop() 
+    wp = Dfest() 
     wp.compute()
